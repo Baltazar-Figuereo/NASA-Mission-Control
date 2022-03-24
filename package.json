@@ -1,0 +1,23 @@
+{
+  "name": "nasa",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "npm run watch --prefix server",
+    "client": "npm start --prefix client",
+    "watch": "concurrently 'npm:server' 'npm:client' "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Baltazar-Figuereo/NASA-Mission-Control.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Baltazar-Figuereo/NASA-Mission-Control/issues"
+  },
+  "homepage": "https://github.com/Baltazar-Figuereo/NASA-Mission-Control#readme"
+}
